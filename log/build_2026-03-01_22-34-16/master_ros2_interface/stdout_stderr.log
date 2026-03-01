@@ -1,0 +1,5 @@
+failed to create symbolic link '/root/master_ros2_ws/build/master_ros2_interface/ament_cmake_python/master_ros2_interface/master_ros2_interface' because existing path cannot be removed: Is a directory
+[  2%] Built target master_ros2_interface__rosidl_generator_type_description
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_master_ros2_interface.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_master_ros2_interface] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_master_ros2_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

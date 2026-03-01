@@ -1,0 +1,28 @@
+[0.000000] (-) TimerEvent: {}
+[0.000157] (-) JobUnselected: {'identifier': 'master_ros2_interface'}
+[0.000334] (master_ros2_pkg) JobQueued: {'identifier': 'master_ros2_pkg', 'dependencies': OrderedDict({'master_ros2_interface': '/root/master_ros2_ws/install/master_ros2_interface'})}
+[0.000442] (master_ros2_pkg) JobStarted: {'identifier': 'master_ros2_pkg'}
+[0.008965] (master_ros2_pkg) JobProgress: {'identifier': 'master_ros2_pkg', 'progress': 'cmake'}
+[0.009746] (master_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '/root/master_ros2_ws/src/master_ros2_pkg', '-DCMAKE_INSTALL_PREFIX=/root/master_ros2_ws/install/master_ros2_pkg'], 'cwd': '/root/master_ros2_ws/build/master_ros2_pkg', 'env': OrderedDict({'VSCODE_CWD': '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CODEX_CI': '1', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'archy-ideapad', 'DEBUG': 'release', 'SHLVL': '1', 'BROWSER': '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/root/master_ros2_ws/install/master_ros2_interface/lib', 'HOME': '/root', 'OLDPWD': '/root/master_ros2_ws', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-48ce6617-6545-4695-8e93-2ca045606901.sock', 'PAGER': 'cat', 'LC_CTYPE': 'C.UTF-8', 'NO_COLOR': '1', 'COLORTERM': '', 'REMOTE_CONTAINERS': 'true', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-5ee947f3-1427-4323-ad62-d829bb80997e.sock', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'RUST_LOG': 'warn', 'TERM': 'dumb', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.codex/tmp/arg0/codex-arg0BgciPm:/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/extensions/openai.chatgpt-0.4.79-linux-x64/bin/linux-x86_64', 'REMOTE_CONTAINERS_SOCKETS': '["/root/.gnupg/S.gpg-agent","/root/.gnupg/S.keyboxd"]', 'DISPLAY': ':0', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'C.UTF-8', 'GH_PAGER': 'cat', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/root/master_ros2_ws/install/master_ros2_interface', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'CODEX_THREAD_ID': '019cab60-57ca-7900-81c8-a8340f50f791', 'GIT_PAGER': 'cat', 'PWD': '/root/master_ros2_ws/build/master_ros2_pkg', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/master_ros2_ws/install/master_ros2_interface'}), 'shell': False}
+[0.021328] (master_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099850] (-) TimerEvent: {}
+[0.146566] (master_ros2_pkg) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.146781] (master_ros2_pkg) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.146888] (master_ros2_pkg) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.147014] (master_ros2_pkg) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.150166] (master_ros2_pkg) StderrLine: {'line': b'CMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.150371] (master_ros2_pkg) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.150550] (master_ros2_pkg) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.150664] (master_ros2_pkg) StderrLine: {'line': b'  /root/master_ros2_ws/build/master_ros2_pkg/ament_cmake_package_templates/templates.cmake)\n'}
+[0.150778] (master_ros2_pkg) StderrLine: {'line': b'  returned error code 1\n'}
+[0.150935] (master_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.151052] (master_ros2_pkg) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.151155] (master_ros2_pkg) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.151252] (master_ros2_pkg) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.151363] (master_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.151449] (master_ros2_pkg) StderrLine: {'line': b'\n'}
+[0.151556] (master_ros2_pkg) StderrLine: {'line': b'\n'}
+[0.151648] (master_ros2_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.153319] (master_ros2_pkg) CommandEnded: {'returncode': 1}
+[0.164913] (master_ros2_pkg) JobEnded: {'identifier': 'master_ros2_pkg', 'rc': 1}
+[0.175365] (-) EventReactorShutdown: {}

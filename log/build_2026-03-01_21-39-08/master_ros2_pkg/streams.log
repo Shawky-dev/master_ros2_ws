@@ -1,0 +1,32 @@
+[0.011s] Invoking command in '/root/master_ros2_ws/build/master_ros2_pkg': AMENT_PREFIX_PATH=/root/master_ros2_ws/install/master_ros2_interface CMAKE_PREFIX_PATH=/root/master_ros2_ws/install/master_ros2_interface LD_LIBRARY_PATH=/root/master_ros2_ws/install/master_ros2_interface/lib PYTHONPATH=/root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages /usr/bin/cmake /root/master_ros2_ws/src/master_ros2_pkg -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/root/master_ros2_ws/install/master_ros2_pkg
+[0.056s] -- The C compiler identification is GNU 13.3.0
+[0.104s] -- The CXX compiler identification is GNU 13.3.0
+[0.121s] -- Detecting C compiler ABI info
+[0.200s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.218s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.316s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.317s] -- Detecting CXX compile features
+[0.317s] -- Detecting CXX compile features - done
+[0.333s] CMake Error at CMakeLists.txt:9 (find_package):
+[0.333s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.333s]   has asked CMake to find a package configuration file provided by
+[0.333s]   "ament_cmake", but CMake did not find one.
+[0.333s] 
+[0.333s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.333s]   any of the following names:
+[0.333s] 
+[0.333s]     ament_cmakeConfig.cmake
+[0.333s]     ament_cmake-config.cmake
+[0.334s] 
+[0.334s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.334s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.334s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.334s]   has been installed.
+[0.334s] 
+[0.334s] 
+[0.334s] -- Configuring incomplete, errors occurred!
+[0.338s] Invoked command in '/root/master_ros2_ws/build/master_ros2_pkg' returned '1': AMENT_PREFIX_PATH=/root/master_ros2_ws/install/master_ros2_interface CMAKE_PREFIX_PATH=/root/master_ros2_ws/install/master_ros2_interface LD_LIBRARY_PATH=/root/master_ros2_ws/install/master_ros2_interface/lib PYTHONPATH=/root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages /usr/bin/cmake /root/master_ros2_ws/src/master_ros2_pkg -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/root/master_ros2_ws/install/master_ros2_pkg

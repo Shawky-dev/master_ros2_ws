@@ -1,0 +1,17 @@
+/root/master_ros2_ws/install/master_ros2_pkg/lib/master_ros2_pkg/publisher_node
+/root/master_ros2_ws/install/master_ros2_pkg/lib/master_ros2_pkg/subscriber_node
+/root/master_ros2_ws/install/master_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/master_ros2_pkg
+/root/master_ros2_ws/install/master_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/master_ros2_pkg
+/root/master_ros2_ws/install/master_ros2_pkg/share/master_ros2_pkg/environment/ament_prefix_path.sh
+/root/master_ros2_ws/install/master_ros2_pkg/share/master_ros2_pkg/environment/ament_prefix_path.dsv
+/root/master_ros2_ws/install/master_ros2_pkg/share/master_ros2_pkg/environment/path.sh
+/root/master_ros2_ws/install/master_ros2_pkg/share/master_ros2_pkg/environment/path.dsv
+/root/master_ros2_ws/install/master_ros2_pkg/share/master_ros2_pkg/local_setup.bash
+/root/master_ros2_ws/install/master_ros2_pkg/share/master_ros2_pkg/local_setup.sh
+/root/master_ros2_ws/install/master_ros2_pkg/share/master_ros2_pkg/local_setup.zsh
+/root/master_ros2_ws/install/master_ros2_pkg/share/master_ros2_pkg/local_setup.dsv
+/root/master_ros2_ws/install/master_ros2_pkg/share/master_ros2_pkg/package.dsv
+/root/master_ros2_ws/install/master_ros2_pkg/share/ament_index/resource_index/packages/master_ros2_pkg
+/root/master_ros2_ws/install/master_ros2_pkg/share/master_ros2_pkg/cmake/master_ros2_pkgConfig.cmake
+/root/master_ros2_ws/install/master_ros2_pkg/share/master_ros2_pkg/cmake/master_ros2_pkgConfig-version.cmake
+/root/master_ros2_ws/install/master_ros2_pkg/share/master_ros2_pkg/package.xml

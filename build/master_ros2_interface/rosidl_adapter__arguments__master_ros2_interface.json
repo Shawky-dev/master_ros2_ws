@@ -1,0 +1,6 @@
+{
+  "package_name": "master_ros2_interface",
+  "non_idl_tuples": [
+    "/root/master_ros2_ws/src/master_ros2_interface:msg/CustomMsg.msg"
+  ]
+}

@@ -1,0 +1,147 @@
+[0.008s] Invoking command in '/root/master_ros2_ws/build/master_ros2_interface': /usr/bin/cmake --build /root/master_ros2_ws/build/master_ros2_interface -- -j12 -l12
+[0.050s] [  2%] Built target master_ros2_interface__rosidl_generator_type_description
+[0.059s] [  2%] Built target ament_cmake_python_copy_master_ros2_interface
+[0.067s] [  5%] Built target master_ros2_interface__cpp
+[0.070s] [ 20%] Built target master_ros2_interface__rosidl_generator_c
+[0.090s] [ 52%] Built target master_ros2_interface__rosidl_typesupport_introspection_cpp
+[0.091s] [ 52%] Built target master_ros2_interface__rosidl_typesupport_introspection_c
+[0.091s] [ 52%] Built target master_ros2_interface__rosidl_typesupport_c
+[0.091s] [ 55%] Built target master_ros2_interface__rosidl_typesupport_fastrtps_c
+[0.091s] [ 64%] Built target master_ros2_interface__rosidl_typesupport_cpp
+[0.095s] [ 73%] Built target master_ros2_interface__rosidl_typesupport_fastrtps_cpp
+[0.112s] [ 73%] Built target master_ros2_interface
+[0.136s] [ 76%] Built target master_ros2_interface__py
+[0.159s] [ 82%] Built target master_ros2_interface__rosidl_generator_py
+[0.180s] [100%] Built target master_ros2_interface_s__rosidl_typesupport_fastrtps_c
+[0.180s] [100%] Built target master_ros2_interface_s__rosidl_typesupport_introspection_c
+[0.180s] [100%] Built target master_ros2_interface_s__rosidl_typesupport_c
+[0.199s] running egg_info
+[0.206s] writing master_ros2_interface.egg-info/PKG-INFO
+[0.206s] writing dependency_links to master_ros2_interface.egg-info/dependency_links.txt
+[0.206s] writing top-level names to master_ros2_interface.egg-info/top_level.txt
+[0.227s] reading manifest file 'master_ros2_interface.egg-info/SOURCES.txt'
+[0.227s] writing manifest file 'master_ros2_interface.egg-info/SOURCES.txt'
+[0.252s] [100%] Built target ament_cmake_python_build_master_ros2_interface_egg
+[0.262s] Invoked command in '/root/master_ros2_ws/build/master_ros2_interface' returned '0': /usr/bin/cmake --build /root/master_ros2_ws/build/master_ros2_interface -- -j12 -l12
+[0.270s] Invoking command in '/root/master_ros2_ws/build/master_ros2_interface': /usr/bin/cmake --install /root/master_ros2_ws/build/master_ros2_interface
+[0.277s] -- Install configuration: ""
+[0.277s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/ament_index/resource_index/rosidl_interfaces/master_ros2_interface
+[0.277s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/msg/CustomMsg.json
+[0.277s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface
+[0.277s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg
+[0.277s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail
+[0.278s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__type_support.h
+[0.278s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__functions.h
+[0.278s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__type_support.c
+[0.278s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__functions.c
+[0.278s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__description.c
+[0.278s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__struct.h
+[0.278s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/rosidl_generator_c__visibility_control.h
+[0.278s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/custom_msg.h
+[0.278s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/environment/library_path.sh
+[0.278s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/environment/library_path.dsv
+[0.278s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/libmaster_ros2_interface__rosidl_generator_c.so
+[0.278s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface
+[0.278s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg
+[0.278s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail
+[0.278s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[0.279s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.279s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/libmaster_ros2_interface__rosidl_typesupport_fastrtps_c.so
+[0.279s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface
+[0.279s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg
+[0.279s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail
+[0.279s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__type_support.c
+[0.279s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[0.279s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.279s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/libmaster_ros2_interface__rosidl_typesupport_introspection_c.so
+[0.279s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/libmaster_ros2_interface__rosidl_typesupport_c.so
+[0.280s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface
+[0.280s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg
+[0.280s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.280s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail
+[0.280s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__struct.hpp
+[0.280s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__type_support.hpp
+[0.280s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__builder.hpp
+[0.280s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__traits.hpp
+[0.280s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/custom_msg.hpp
+[0.280s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface
+[0.280s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg
+[0.280s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail
+[0.280s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.281s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/dds_fastrtps
+[0.281s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.281s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so
+[0.281s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface
+[0.281s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg
+[0.281s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail
+[0.281s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[0.281s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/include/master_ros2_interface/master_ros2_interface/msg/detail/custom_msg__type_support.cpp
+[0.281s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/libmaster_ros2_interface__rosidl_typesupport_introspection_cpp.so
+[0.281s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/libmaster_ros2_interface__rosidl_typesupport_cpp.so
+[0.282s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/environment/pythonpath.sh
+[0.282s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/environment/pythonpath.dsv
+[0.282s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface-0.0.0-py3.12.egg-info
+[0.282s] -- Installing: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.282s] -- Installing: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface-0.0.0-py3.12.egg-info/top_level.txt
+[0.282s] -- Installing: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.282s] -- Installing: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface-0.0.0-py3.12.egg-info/PKG-INFO
+[0.282s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface
+[0.282s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface/master_ros2_interface_s__rosidl_typesupport_introspection_c.so
+[0.283s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_c.c
+[0.283s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface/__init__.py
+[0.283s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface/master_ros2_interface_s__rosidl_typesupport_fastrtps_c.so
+[0.283s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.283s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface/master_ros2_interface_s__rosidl_typesupport_c.so
+[0.283s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface/msg
+[0.283s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface/msg/_custom_msg.py
+[0.283s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface/msg/__init__.py
+[0.283s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface/msg/_custom_msg_s.c
+[0.283s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_introspection_c.c
+[0.311s] Listing '/root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface'...
+[0.311s] Listing '/root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface/msg'...
+[0.316s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface/master_ros2_interface_s__rosidl_typesupport_fastrtps_c.so
+[0.316s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface/master_ros2_interface_s__rosidl_typesupport_introspection_c.so
+[0.316s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages/master_ros2_interface/master_ros2_interface_s__rosidl_typesupport_c.so
+[0.317s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/lib/libmaster_ros2_interface__rosidl_generator_py.so
+[0.317s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/msg/CustomMsg.idl
+[0.317s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/msg/CustomMsg.msg
+[0.317s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/ament_index/resource_index/package_run_dependencies/master_ros2_interface
+[0.317s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/ament_index/resource_index/parent_prefix_path/master_ros2_interface
+[0.317s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/environment/ament_prefix_path.sh
+[0.318s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/environment/ament_prefix_path.dsv
+[0.318s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/environment/path.sh
+[0.318s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/environment/path.dsv
+[0.318s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/local_setup.bash
+[0.318s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/local_setup.sh
+[0.318s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/local_setup.zsh
+[0.318s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/local_setup.dsv
+[0.318s] -- Installing: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/package.dsv
+[0.318s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/ament_index/resource_index/packages/master_ros2_interface
+[0.318s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/export_master_ros2_interface__rosidl_generator_cExport.cmake
+[0.318s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/export_master_ros2_interface__rosidl_generator_cExport-noconfig.cmake
+[0.319s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/export_master_ros2_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[0.319s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/export_master_ros2_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.319s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/master_ros2_interface__rosidl_typesupport_introspection_cExport.cmake
+[0.319s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/master_ros2_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.319s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/master_ros2_interface__rosidl_typesupport_cExport.cmake
+[0.319s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/master_ros2_interface__rosidl_typesupport_cExport-noconfig.cmake
+[0.319s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/export_master_ros2_interface__rosidl_generator_cppExport.cmake
+[0.319s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/export_master_ros2_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.320s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/export_master_ros2_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.320s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/master_ros2_interface__rosidl_typesupport_introspection_cppExport.cmake
+[0.320s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/master_ros2_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.320s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/master_ros2_interface__rosidl_typesupport_cppExport.cmake
+[0.320s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/master_ros2_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[0.320s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/export_master_ros2_interface__rosidl_generator_pyExport.cmake
+[0.320s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/export_master_ros2_interface__rosidl_generator_pyExport-noconfig.cmake
+[0.320s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/rosidl_cmake-extras.cmake
+[0.320s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.321s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.321s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/ament_cmake_export_targets-extras.cmake
+[0.321s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.321s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.321s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.321s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/master_ros2_interfaceConfig.cmake
+[0.321s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/cmake/master_ros2_interfaceConfig-version.cmake
+[0.321s] -- Up-to-date: /root/master_ros2_ws/install/master_ros2_interface/share/master_ros2_interface/package.xml
+[0.323s] Invoked command in '/root/master_ros2_ws/build/master_ros2_interface' returned '0': /usr/bin/cmake --install /root/master_ros2_ws/build/master_ros2_interface

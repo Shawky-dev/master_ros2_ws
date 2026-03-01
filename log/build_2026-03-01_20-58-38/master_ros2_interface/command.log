@@ -1,0 +1,2 @@
+Invoking command in '/root/master_ros2_ws/build/master_ros2_interface': /usr/bin/cmake /root/master_ros2_ws/src/master_ros2_interface -DCMAKE_INSTALL_PREFIX=/root/master_ros2_ws/install/master_ros2_interface
+Invoked command in '/root/master_ros2_ws/build/master_ros2_interface' returned '1': /usr/bin/cmake /root/master_ros2_ws/src/master_ros2_interface -DCMAKE_INSTALL_PREFIX=/root/master_ros2_ws/install/master_ros2_interface

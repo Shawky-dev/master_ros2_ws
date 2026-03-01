@@ -1,0 +1,20 @@
+[0.010s] Invoking command in '/root/master_ros2_ws/build/master_ros2_pkg': AMENT_PREFIX_PATH=/root/master_ros2_ws/install/master_ros2_interface CMAKE_PREFIX_PATH=/root/master_ros2_ws/install/master_ros2_interface LD_LIBRARY_PATH=/root/master_ros2_ws/install/master_ros2_interface/lib PYTHONPATH=/root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages /usr/bin/cmake /root/master_ros2_ws/src/master_ros2_pkg -DCMAKE_INSTALL_PREFIX=/root/master_ros2_ws/install/master_ros2_pkg
+[0.021s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.146s] Traceback (most recent call last):
+[0.146s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.146s]     from ament_package.templates import get_environment_hook_template_path
+[0.146s] ModuleNotFoundError: No module named 'ament_package'
+[0.150s] CMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.150s]   execute_process(/usr/bin/python3
+[0.150s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.150s]   /root/master_ros2_ws/build/master_ros2_pkg/ament_cmake_package_templates/templates.cmake)
+[0.150s]   returned error code 1
+[0.150s] Call Stack (most recent call first):
+[0.151s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.151s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.151s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.151s]   CMakeLists.txt:9 (find_package)
+[0.151s] 
+[0.151s] 
+[0.151s] -- Configuring incomplete, errors occurred!
+[0.153s] Invoked command in '/root/master_ros2_ws/build/master_ros2_pkg' returned '1': AMENT_PREFIX_PATH=/root/master_ros2_ws/install/master_ros2_interface CMAKE_PREFIX_PATH=/root/master_ros2_ws/install/master_ros2_interface LD_LIBRARY_PATH=/root/master_ros2_ws/install/master_ros2_interface/lib PYTHONPATH=/root/master_ros2_ws/install/master_ros2_interface/lib/python3.12/site-packages /usr/bin/cmake /root/master_ros2_ws/src/master_ros2_pkg -DCMAKE_INSTALL_PREFIX=/root/master_ros2_ws/install/master_ros2_pkg

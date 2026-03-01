@@ -23,6 +23,8 @@ ament_target_dependencies(
   rclcpp
   std_msgs
   master_ros2_interface)
+add_executable(publisher_node_params src/publisher_node_params.cpp)
+ament_target_dependencies(publisher_node_params rclcpp std_msgs master_ros2_interface)
 
 install(TARGETS
   publisher_node

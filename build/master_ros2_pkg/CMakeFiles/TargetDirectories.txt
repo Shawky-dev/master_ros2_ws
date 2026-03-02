@@ -2,6 +2,7 @@
 /root/master_ros2_ws/build/master_ros2_pkg/CMakeFiles/master_ros2_pkg_uninstall.dir
 /root/master_ros2_ws/build/master_ros2_pkg/CMakeFiles/publisher_node.dir
 /root/master_ros2_ws/build/master_ros2_pkg/CMakeFiles/subscriber_node.dir
+/root/master_ros2_ws/build/master_ros2_pkg/CMakeFiles/publisher_node_params.dir
 /root/master_ros2_ws/build/master_ros2_pkg/CMakeFiles/test.dir
 /root/master_ros2_ws/build/master_ros2_pkg/CMakeFiles/edit_cache.dir
 /root/master_ros2_ws/build/master_ros2_pkg/CMakeFiles/rebuild_cache.dir

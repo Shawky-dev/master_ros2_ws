@@ -423,16 +423,16 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 9,
-			"id" : "master_ros2_interface__rosidl_generator_c::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 42,
 			"id" : "master_ros2_interface__py::@3dc2c6977c7dab77fd3f"
 		},
 		{
 			"backtrace" : 9,
 			"id" : "master_ros2_interface__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "master_ros2_interface__rosidl_generator_c::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 42,

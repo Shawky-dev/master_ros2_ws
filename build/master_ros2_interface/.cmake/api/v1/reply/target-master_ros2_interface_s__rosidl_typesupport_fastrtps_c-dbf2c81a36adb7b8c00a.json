@@ -342,13 +342,13 @@
 			{
 				"command" : 11,
 				"file" : 2,
-				"line" : 216,
+				"line" : 181,
 				"parent" : 4
 			},
 			{
 				"command" : 11,
 				"file" : 2,
-				"line" : 181,
+				"line" : 216,
 				"parent" : 4
 			},
 			{
@@ -514,15 +514,7 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 9,
-			"id" : "master_ros2_interface__rosidl_generator_c::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 54,
-			"id" : "master_ros2_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 55,
 			"id" : "master_ros2_interface__py::@3dc2c6977c7dab77fd3f"
 		},
 		{
@@ -530,7 +522,15 @@
 			"id" : "master_ros2_interface__rosidl_generator_py::@6890427a1f51a3e7e1df"
 		},
 		{
+			"backtrace" : 9,
+			"id" : "master_ros2_interface__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
 			"backtrace" : 55,
+			"id" : "master_ros2_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 54,
 			"id" : "master_ros2_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
 		}
 	],

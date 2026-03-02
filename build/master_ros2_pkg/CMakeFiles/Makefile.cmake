@@ -694,4 +694,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/master_ros2_pkg_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/publisher_node.dir/DependInfo.cmake"
   "CMakeFiles/subscriber_node.dir/DependInfo.cmake"
+  "CMakeFiles/publisher_node_params.dir/DependInfo.cmake"
   )

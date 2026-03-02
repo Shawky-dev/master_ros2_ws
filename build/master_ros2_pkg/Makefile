@@ -223,6 +223,19 @@ subscriber_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_node.dir/build.make CMakeFiles/subscriber_node.dir/build
 .PHONY : subscriber_node/fast
 
+#=============================================================================
+# Target rules for targets named publisher_node_params
+
+# Build rule for target.
+publisher_node_params: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 publisher_node_params
+.PHONY : publisher_node_params
+
+# fast build rule for target.
+publisher_node_params/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_node_params.dir/build.make CMakeFiles/publisher_node_params.dir/build
+.PHONY : publisher_node_params/fast
+
 src/publisher_node.o: src/publisher_node.cpp.o
 .PHONY : src/publisher_node.o
 
@@ -246,6 +259,30 @@ src/publisher_node.s: src/publisher_node.cpp.s
 src/publisher_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_node.dir/build.make CMakeFiles/publisher_node.dir/src/publisher_node.cpp.s
 .PHONY : src/publisher_node.cpp.s
+
+src/publisher_node_params.o: src/publisher_node_params.cpp.o
+.PHONY : src/publisher_node_params.o
+
+# target to build an object file
+src/publisher_node_params.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_node_params.dir/build.make CMakeFiles/publisher_node_params.dir/src/publisher_node_params.cpp.o
+.PHONY : src/publisher_node_params.cpp.o
+
+src/publisher_node_params.i: src/publisher_node_params.cpp.i
+.PHONY : src/publisher_node_params.i
+
+# target to preprocess a source file
+src/publisher_node_params.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_node_params.dir/build.make CMakeFiles/publisher_node_params.dir/src/publisher_node_params.cpp.i
+.PHONY : src/publisher_node_params.cpp.i
+
+src/publisher_node_params.s: src/publisher_node_params.cpp.s
+.PHONY : src/publisher_node_params.s
+
+# target to generate assembly for a file
+src/publisher_node_params.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_node_params.dir/build.make CMakeFiles/publisher_node_params.dir/src/publisher_node_params.cpp.s
+.PHONY : src/publisher_node_params.cpp.s
 
 src/subscriber_node.o: src/subscriber_node.cpp.o
 .PHONY : src/subscriber_node.o
@@ -287,10 +324,14 @@ help:
 	@echo "... master_ros2_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... publisher_node"
+	@echo "... publisher_node_params"
 	@echo "... subscriber_node"
 	@echo "... src/publisher_node.o"
 	@echo "... src/publisher_node.i"
 	@echo "... src/publisher_node.s"
+	@echo "... src/publisher_node_params.o"
+	@echo "... src/publisher_node_params.i"
+	@echo "... src/publisher_node_params.s"
 	@echo "... src/subscriber_node.o"
 	@echo "... src/subscriber_node.i"
 	@echo "... src/subscriber_node.s"

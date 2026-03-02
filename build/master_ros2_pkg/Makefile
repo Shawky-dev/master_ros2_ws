@@ -236,6 +236,32 @@ publisher_node_params/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_node_params.dir/build.make CMakeFiles/publisher_node_params.dir/build
 .PHONY : publisher_node_params/fast
 
+#=============================================================================
+# Target rules for targets named simple_server
+
+# Build rule for target.
+simple_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_server
+.PHONY : simple_server
+
+# fast build rule for target.
+simple_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_server.dir/build.make CMakeFiles/simple_server.dir/build
+.PHONY : simple_server/fast
+
+#=============================================================================
+# Target rules for targets named simple_client
+
+# Build rule for target.
+simple_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_client
+.PHONY : simple_client
+
+# fast build rule for target.
+simple_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_client.dir/build.make CMakeFiles/simple_client.dir/build
+.PHONY : simple_client/fast
+
 src/publisher_node.o: src/publisher_node.cpp.o
 .PHONY : src/publisher_node.o
 
@@ -284,6 +310,54 @@ src/publisher_node_params.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_node_params.dir/build.make CMakeFiles/publisher_node_params.dir/src/publisher_node_params.cpp.s
 .PHONY : src/publisher_node_params.cpp.s
 
+src/simple_client.o: src/simple_client.cpp.o
+.PHONY : src/simple_client.o
+
+# target to build an object file
+src/simple_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_client.dir/build.make CMakeFiles/simple_client.dir/src/simple_client.cpp.o
+.PHONY : src/simple_client.cpp.o
+
+src/simple_client.i: src/simple_client.cpp.i
+.PHONY : src/simple_client.i
+
+# target to preprocess a source file
+src/simple_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_client.dir/build.make CMakeFiles/simple_client.dir/src/simple_client.cpp.i
+.PHONY : src/simple_client.cpp.i
+
+src/simple_client.s: src/simple_client.cpp.s
+.PHONY : src/simple_client.s
+
+# target to generate assembly for a file
+src/simple_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_client.dir/build.make CMakeFiles/simple_client.dir/src/simple_client.cpp.s
+.PHONY : src/simple_client.cpp.s
+
+src/simple_server.o: src/simple_server.cpp.o
+.PHONY : src/simple_server.o
+
+# target to build an object file
+src/simple_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_server.dir/build.make CMakeFiles/simple_server.dir/src/simple_server.cpp.o
+.PHONY : src/simple_server.cpp.o
+
+src/simple_server.i: src/simple_server.cpp.i
+.PHONY : src/simple_server.i
+
+# target to preprocess a source file
+src/simple_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_server.dir/build.make CMakeFiles/simple_server.dir/src/simple_server.cpp.i
+.PHONY : src/simple_server.cpp.i
+
+src/simple_server.s: src/simple_server.cpp.s
+.PHONY : src/simple_server.s
+
+# target to generate assembly for a file
+src/simple_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_server.dir/build.make CMakeFiles/simple_server.dir/src/simple_server.cpp.s
+.PHONY : src/simple_server.cpp.s
+
 src/subscriber_node.o: src/subscriber_node.cpp.o
 .PHONY : src/subscriber_node.o
 
@@ -325,6 +399,8 @@ help:
 	@echo "... uninstall"
 	@echo "... publisher_node"
 	@echo "... publisher_node_params"
+	@echo "... simple_client"
+	@echo "... simple_server"
 	@echo "... subscriber_node"
 	@echo "... src/publisher_node.o"
 	@echo "... src/publisher_node.i"
@@ -332,6 +408,12 @@ help:
 	@echo "... src/publisher_node_params.o"
 	@echo "... src/publisher_node_params.i"
 	@echo "... src/publisher_node_params.s"
+	@echo "... src/simple_client.o"
+	@echo "... src/simple_client.i"
+	@echo "... src/simple_client.s"
+	@echo "... src/simple_server.o"
+	@echo "... src/simple_server.i"
+	@echo "... src/simple_server.s"
 	@echo "... src/subscriber_node.o"
 	@echo "... src/subscriber_node.i"
 	@echo "... src/subscriber_node.s"

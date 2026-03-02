@@ -59,7 +59,7 @@ endif()
 add_library(master_ros2_interface::master_ros2_interface__rosidl_typesupport_cpp SHARED IMPORTED)
 
 set_target_properties(master_ros2_interface::master_ros2_interface__rosidl_typesupport_cpp PROPERTIES
-  INTERFACE_LINK_LIBRARIES "master_ros2_interface::master_ros2_interface__rosidl_generator_c;master_ros2_interface::master_ros2_interface__rosidl_generator_cpp"
+  INTERFACE_LINK_LIBRARIES "master_ros2_interface::master_ros2_interface__rosidl_generator_c;master_ros2_interface::master_ros2_interface__rosidl_generator_cpp;service_msgs::service_msgs__rosidl_typesupport_cpp;builtin_interfaces::builtin_interfaces__rosidl_typesupport_cpp"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

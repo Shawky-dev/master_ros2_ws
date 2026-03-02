@@ -1,1 +1,2 @@
 /root/master_ros2_ws/build/master_ros2_interface/rosidl_adapter/master_ros2_interface:msg/CustomMsg.idl
+/root/master_ros2_ws/build/master_ros2_interface/rosidl_adapter/master_ros2_interface:srv/ConcatStrings.idl

@@ -70,8 +70,11 @@ include /root/master_ros2_ws/build/master_ros2_interface/master_ros2_interface__
 /root/master_ros2_ws/build/master_ros2_interface/master_ros2_interface__py/CMakeFiles/master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_introspection_c.c
 /root/master_ros2_ws/build/master_ros2_interface/master_ros2_interface__py/CMakeFiles/master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_c.c
 /root/master_ros2_ws/build/master_ros2_interface/master_ros2_interface__py/CMakeFiles/master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/msg/_custom_msg.py
+/root/master_ros2_ws/build/master_ros2_interface/master_ros2_interface__py/CMakeFiles/master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/srv/_concat_strings.py
 /root/master_ros2_ws/build/master_ros2_interface/master_ros2_interface__py/CMakeFiles/master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/msg/__init__.py
+/root/master_ros2_ws/build/master_ros2_interface/master_ros2_interface__py/CMakeFiles/master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/srv/__init__.py
 /root/master_ros2_ws/build/master_ros2_interface/master_ros2_interface__py/CMakeFiles/master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/msg/_custom_msg_s.c
+/root/master_ros2_ws/build/master_ros2_interface/master_ros2_interface__py/CMakeFiles/master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/srv/_concat_strings_s.c
 
 rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -87,6 +90,10 @@ rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typ
 rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/master_ros2_interface/msg/CustomMsg.idl
+rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/master_ros2_interface/srv/ConcatStrings.idl
+rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/master_ros2_ws/build/master_ros2_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /root/master_ros2_ws/build/master_ros2_interface/master_ros2_interface__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /root/master_ros2_ws/build/master_ros2_interface/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -99,11 +106,20 @@ rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typ
 rosidl_generator_py/master_ros2_interface/msg/_custom_msg.py: rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/master_ros2_interface/msg/_custom_msg.py
 
+rosidl_generator_py/master_ros2_interface/srv/_concat_strings.py: rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/master_ros2_interface/srv/_concat_strings.py
+
 rosidl_generator_py/master_ros2_interface/msg/__init__.py: rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/master_ros2_interface/msg/__init__.py
 
+rosidl_generator_py/master_ros2_interface/srv/__init__.py: rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/master_ros2_interface/srv/__init__.py
+
 rosidl_generator_py/master_ros2_interface/msg/_custom_msg_s.c: rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/master_ros2_interface/msg/_custom_msg_s.c
+
+rosidl_generator_py/master_ros2_interface/srv/_concat_strings_s.c: rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/master_ros2_interface/srv/_concat_strings_s.c
 
 master_ros2_interface__py: /root/master_ros2_ws/build/master_ros2_interface/master_ros2_interface__py/CMakeFiles/master_ros2_interface__py
 master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/_master_ros2_interface_s.ep.rosidl_typesupport_c.c
@@ -112,6 +128,9 @@ master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/_master_ros
 master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/msg/__init__.py
 master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/msg/_custom_msg.py
 master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/msg/_custom_msg_s.c
+master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/srv/__init__.py
+master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/srv/_concat_strings.py
+master_ros2_interface__py: rosidl_generator_py/master_ros2_interface/srv/_concat_strings_s.c
 master_ros2_interface__py: /root/master_ros2_ws/build/master_ros2_interface/master_ros2_interface__py/CMakeFiles/master_ros2_interface__py.dir/build.make
 .PHONY : master_ros2_interface__py
 

@@ -26,9 +26,18 @@ ament_target_dependencies(
 add_executable(publisher_node_params src/publisher_node_params.cpp)
 ament_target_dependencies(publisher_node_params rclcpp std_msgs master_ros2_interface)
 
+add_executable(simple_server src/simple_server.cpp)
+ament_target_dependencies(simple_server rclcpp master_ros2_interface)
+add_executable(simple_client src/simple_client.cpp)
+ament_target_dependencies(simple_client rclcpp master_ros2_interface)
+
+
 install(TARGETS
   publisher_node
   subscriber_node
+  publisher_node_params
+  simple_server
+  simple_client
   DESTINATION lib/${PROJECT_NAME}
 )
 

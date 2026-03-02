@@ -3,10 +3,17 @@
   "output_dir": "/root/master_ros2_ws/build/master_ros2_interface/rosidl_generator_c/master_ros2_interface",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/root/master_ros2_ws/build/master_ros2_interface/rosidl_adapter/master_ros2_interface:msg/CustomMsg.idl"
+    "/root/master_ros2_ws/build/master_ros2_interface/rosidl_adapter/master_ros2_interface:msg/CustomMsg.idl",
+    "/root/master_ros2_ws/build/master_ros2_interface/rosidl_adapter/master_ros2_interface:srv/ConcatStrings.idl"
   ],
   "ros_interface_files": [
-    "/root/master_ros2_ws/src/master_ros2_interface/msg/CustomMsg.msg"
+    "/root/master_ros2_ws/src/master_ros2_interface/msg/CustomMsg.msg",
+    "/root/master_ros2_ws/src/master_ros2_interface/srv/ConcatStrings.srv"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -28,9 +35,14 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/root/master_ros2_ws/build/master_ros2_interface/rosidl_adapter/master_ros2_interface/msg/CustomMsg.idl"
+    "/root/master_ros2_ws/build/master_ros2_interface/rosidl_adapter/master_ros2_interface/msg/CustomMsg.idl",
+    "/root/master_ros2_ws/build/master_ros2_interface/rosidl_adapter/master_ros2_interface/srv/ConcatStrings.idl",
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "type_description_tuples": [
-    "msg/CustomMsg.idl:/root/master_ros2_ws/build/master_ros2_interface/rosidl_generator_type_description/master_ros2_interface/msg/CustomMsg.json"
+    "msg/CustomMsg.idl:/root/master_ros2_ws/build/master_ros2_interface/rosidl_generator_type_description/master_ros2_interface/msg/CustomMsg.json",
+    "srv/ConcatStrings.idl:/root/master_ros2_ws/build/master_ros2_interface/rosidl_generator_type_description/master_ros2_interface/srv/ConcatStrings.json"
   ]
 }

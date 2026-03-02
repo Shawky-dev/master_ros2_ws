@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/master_ros2_interface__rosidl_generator_py.dir/rosidl_generator_py/master_ros2_interface/msg/_custom_msg_s.c.o"
   "CMakeFiles/master_ros2_interface__rosidl_generator_py.dir/rosidl_generator_py/master_ros2_interface/msg/_custom_msg_s.c.o.d"
+  "CMakeFiles/master_ros2_interface__rosidl_generator_py.dir/rosidl_generator_py/master_ros2_interface/srv/_concat_strings_s.c.o"
+  "CMakeFiles/master_ros2_interface__rosidl_generator_py.dir/rosidl_generator_py/master_ros2_interface/srv/_concat_strings_s.c.o.d"
   "libmaster_ros2_interface__rosidl_generator_py.pdb"
   "libmaster_ros2_interface__rosidl_generator_py.so"
 )

@@ -78,11 +78,21 @@ rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/cu
 rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em
 rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp: rosidl_adapter/master_ros2_interface/msg/CustomMsg.idl
+rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp: rosidl_adapter/master_ros2_interface/srv/ConcatStrings.idl
+rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/master_ros2_ws/build/master_ros2_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /root/master_ros2_ws/build/master_ros2_interface/rosidl_typesupport_fastrtps_cpp__arguments.json
 
 rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+
+rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp: rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/concat_strings__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/concat_strings__rosidl_typesupport_fastrtps_cpp.hpp
 
 CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o: CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/flags.make
 CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp
@@ -98,24 +108,44 @@ CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typ
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/master_ros2_ws/build/master_ros2_interface/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp -o CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.s
 
+CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp.o: CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp
+CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp.o: CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/master_ros2_ws/build/master_ros2_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp.o -MF CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp.o.d -o CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp.o -c /root/master_ros2_ws/build/master_ros2_interface/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp
+
+CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/master_ros2_ws/build/master_ros2_interface/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp > CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp.i
+
+CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/master_ros2_ws/build/master_ros2_interface/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp -o CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp.s
+
 # Object files for target master_ros2_interface__rosidl_typesupport_fastrtps_cpp
 master_ros2_interface__rosidl_typesupport_fastrtps_cpp_OBJECTS = \
-"CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o"
+"CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o" \
+"CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp.o"
 
 # External object files for target master_ros2_interface__rosidl_typesupport_fastrtps_cpp
 master_ros2_interface__rosidl_typesupport_fastrtps_cpp_EXTERNAL_OBJECTS =
 
 libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o
+libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp.o
 libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make
-libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
+libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
+libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: libmaster_ros2_interface__rosidl_generator_c.so
+libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
 libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/jazzy/lib/libfastcdr.so.2.2.5
 libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/jazzy/lib/librmw.so
 libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so
+libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
+libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/jazzy/lib/librcutils.so
 libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/master_ros2_ws/build/master_ros2_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/master_ros2_ws/build/master_ros2_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libmaster_ros2_interface__rosidl_typesupport_fastrtps_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +158,8 @@ CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/clean:
 
 CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/master_ros2_interface/msg/detail/dds_fastrtps/custom_msg__type_support.cpp
+CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/concat_strings__rosidl_typesupport_fastrtps_cpp.hpp
+CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/master_ros2_interface/srv/detail/dds_fastrtps/concat_strings__type_support.cpp
 	cd /root/master_ros2_ws/build/master_ros2_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/master_ros2_ws/src/master_ros2_interface /root/master_ros2_ws/src/master_ros2_interface /root/master_ros2_ws/build/master_ros2_interface /root/master_ros2_ws/build/master_ros2_interface /root/master_ros2_ws/build/master_ros2_interface/CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/master_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/depend
 

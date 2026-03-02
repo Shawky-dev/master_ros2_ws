@@ -1,2 +1,4 @@
 msg/CustomMsg.idl
 msg/CustomMsg.msg
+srv/ConcatStrings.idl
+srv/ConcatStrings.srv

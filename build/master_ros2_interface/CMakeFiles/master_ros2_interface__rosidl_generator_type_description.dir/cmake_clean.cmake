@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/master_ros2_interface__rosidl_generator_type_description"
   "rosidl_generator_type_description/master_ros2_interface/msg/CustomMsg.json"
+  "rosidl_generator_type_description/master_ros2_interface/srv/ConcatStrings.json"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,4 +1,0 @@
-Invoking command in '/root/master_ros2_ws/build/master_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/master_ros2_ws/src/master_ros2_interface -DCMAKE_INSTALL_PREFIX=/root/master_ros2_ws/install/master_ros2_interface
-Invoked command in '/root/master_ros2_ws/build/master_ros2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/master_ros2_ws/src/master_ros2_interface -DCMAKE_INSTALL_PREFIX=/root/master_ros2_ws/install/master_ros2_interface
-Invoking command in '/root/master_ros2_ws/build/master_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/master_ros2_ws/build/master_ros2_interface -- -j12 -l12
-Invoked command in '/root/master_ros2_ws/build/master_ros2_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/master_ros2_ws/build/master_ros2_interface -- -j12 -l12

@@ -1,1 +1,1 @@
-/root/master_ros2_ws/install/master_ros2_interface:/opt/ros/jazzy
+/root/master_ros2_ws/install/master_ros2_pkg:/root/master_ros2_ws/install/master_ros2_interface:/opt/ros/jazzy

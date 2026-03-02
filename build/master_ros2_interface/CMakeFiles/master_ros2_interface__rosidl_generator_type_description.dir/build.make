@@ -67,15 +67,21 @@ include CMakeFiles/master_ros2_interface__rosidl_generator_type_description.dir/
 include CMakeFiles/master_ros2_interface__rosidl_generator_type_description.dir/progress.make
 
 CMakeFiles/master_ros2_interface__rosidl_generator_type_description: rosidl_generator_type_description/master_ros2_interface/msg/CustomMsg.json
+CMakeFiles/master_ros2_interface__rosidl_generator_type_description: rosidl_generator_type_description/master_ros2_interface/srv/ConcatStrings.json
 
 rosidl_generator_type_description/master_ros2_interface/msg/CustomMsg.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/master_ros2_interface/msg/CustomMsg.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/master_ros2_interface/msg/CustomMsg.json: rosidl_adapter/master_ros2_interface/msg/CustomMsg.idl
+rosidl_generator_type_description/master_ros2_interface/msg/CustomMsg.json: rosidl_adapter/master_ros2_interface/srv/ConcatStrings.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/master_ros2_ws/build/master_ros2_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /root/master_ros2_ws/build/master_ros2_interface/rosidl_generator_type_description__arguments.json
 
+rosidl_generator_type_description/master_ros2_interface/srv/ConcatStrings.json: rosidl_generator_type_description/master_ros2_interface/msg/CustomMsg.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/master_ros2_interface/srv/ConcatStrings.json
+
 master_ros2_interface__rosidl_generator_type_description: CMakeFiles/master_ros2_interface__rosidl_generator_type_description
 master_ros2_interface__rosidl_generator_type_description: rosidl_generator_type_description/master_ros2_interface/msg/CustomMsg.json
+master_ros2_interface__rosidl_generator_type_description: rosidl_generator_type_description/master_ros2_interface/srv/ConcatStrings.json
 master_ros2_interface__rosidl_generator_type_description: CMakeFiles/master_ros2_interface__rosidl_generator_type_description.dir/build.make
 .PHONY : master_ros2_interface__rosidl_generator_type_description
 

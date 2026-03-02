@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "/root/master_ros2_ws/build/master_ros2_interface/rosidl_generator_py/master_ros2_interface/msg/__init__.py"
   "/root/master_ros2_ws/build/master_ros2_interface/rosidl_generator_py/master_ros2_interface/msg/_custom_msg.py"
   "/root/master_ros2_ws/build/master_ros2_interface/rosidl_generator_py/master_ros2_interface/msg/_custom_msg_s.c"
+  "/root/master_ros2_ws/build/master_ros2_interface/rosidl_generator_py/master_ros2_interface/srv/__init__.py"
+  "/root/master_ros2_ws/build/master_ros2_interface/rosidl_generator_py/master_ros2_interface/srv/_concat_strings.py"
+  "/root/master_ros2_ws/build/master_ros2_interface/rosidl_generator_py/master_ros2_interface/srv/_concat_strings_s.c"
   "CMakeFiles/master_ros2_interface__py"
 )
 

@@ -2,6 +2,11 @@
   "package_name": "master_ros2_interface",
   "output_dir": "/root/master_ros2_ws/build/master_ros2_interface/rosidl_generator_type_description/master_ros2_interface",
   "idl_tuples": [
-    "/root/master_ros2_ws/build/master_ros2_interface/rosidl_adapter/master_ros2_interface:msg/CustomMsg.idl"
+    "/root/master_ros2_ws/build/master_ros2_interface/rosidl_adapter/master_ros2_interface:msg/CustomMsg.idl",
+    "/root/master_ros2_ws/build/master_ros2_interface/rosidl_adapter/master_ros2_interface:srv/ConcatStrings.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
   ]
 }
